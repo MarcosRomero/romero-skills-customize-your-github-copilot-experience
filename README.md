@@ -1,45 +1,63 @@
-# Personalize Sua Experiência com o GitHub Copilot
+# 📘 Atividade: Personalize sua Experiência com o GitHub Copilot
 
-_Personalize o comportamento do GitHub Copilot com instruções personalizadas, prompts e agentes personalizados para seus fluxos de trabalho de desenvolvimento específicos._
+## 🎯 Objetivo
 
-## Bem-vindo
+Aprender a adaptar o GitHub Copilot ao contexto do projeto, criando instruções personalizadas, prompts reutilizáveis e agentes especializados para produzir respostas mais consistentes e alinhadas com os padrões do repositório.
 
-- **Para quem é**: Desenvolvedores e educadores que querem adaptar o comportamento do Copilot aos seus fluxos de trabalho específicos
-- **O que você vai aprender**: Como configurar instruções personalizadas, prompts e agentes personalizados para tornar o Copilot mais eficaz para seus casos de uso específicos
-- **O que você vai construir**: Uma configuração personalizada do Copilot com instruções, prompts e agentes personalizados que geram automaticamente trechos de código consistentes seguindo os padrões do seu projeto
-- **Pré-requisitos**: Exercício [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot)
-- **Duração**: Este exercício leva menos de 30 minutos para ser concluído.
+## 📝 Tarefas
 
-Neste exercício, você vai:
+### 🛠️ Configurar instruções de repositório
 
-1. Configurar instruções personalizadas em nível de repositório para fornecer ao Copilot o contexto essencial do projeto
-1. Criar instruções personalizadas direcionadas para tipos de arquivo e diretórios específicos
-1. Construir templates de prompt reutilizáveis para tarefas comuns como exercícios escolares
-1. Configurar agentes personalizados para fluxos de trabalho especializados
+#### Descrição
+Crie as instruções principais do projeto para que o Copilot entenda o propósito do repositório, a estrutura dos arquivos e as convenções de conteúdo educacional.
 
-### Como iniciar este exercício
+#### Requisitos
+O projeto concluído deve:
 
-Basta copiar o exercício para sua conta, depois dê à sua Octocat favorita (Mona) **cerca de 20 segundos** para preparar a primeira lição, e então **atualize a página**.
+- Explicar o objetivo do site educacional e o papel de cada pasta principal.
+- Informar que as tarefas ficam em `assignments/` e que os templates ficam em `templates/`.
+- Definir o padrão de linguagem clara, amigável e focada no aprendizado.
+- Garantir que o Copilot siga as convenções do projeto ao gerar textos e estruturas de exercícios.
 
-[![](https://img.shields.io/badge/Copiar%20Exerc%C3%ADcio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=dev-pods&template_name=customize-your-github-copilot-experience&owner=%40me&name=skills-customize-your-github-copilot-experience&description=Exercise:+Customize+Your+GitHub+Copilot+Experience&visibility=public)
+### 🛠️ Criar instruções específicas para arquivos e diretórios
 
-<details>
-<summary>Está com problemas? 🤷</summary><br/>
+#### Descrição
+Defina regras personalizadas para arquivos de tarefa e templates, de modo que o Copilot mantenha consistência na criação e edição de materiais didáticos.
 
-Ao copiar o exercício, recomendamos as seguintes configurações:
+#### Requisitos
+O projeto concluído deve:
 
-- Para o proprietário, escolha sua conta pessoal ou uma organização para hospedar o repositório.
+- Incluir instruções aplicáveis a arquivos Markdown de tarefas.
+- Sinalizar a necessidade de manter a estrutura do template do projeto.
+- Orientar o uso de títulos, objetivos, tarefas e requisitos em linguagem em português.
+- Preservar a organização e os nomes descritivos das pastas e arquivos.
 
-- Recomendamos criar um repositório público, pois repositórios privados consumirão minutos de Actions.
+### 🛠️ Criar prompts reutilizáveis para exercícios
 
-Se o exercício não estiver pronto em 20 segundos, verifique a aba [Actions](../../actions).
+#### Descrição
+Estruture prompts padronizados para gerar novas atividades seguindo o estilo do repositório e os objetivos pedagógicos do projeto.
 
-- Verifique se há um job em execução. Às vezes simplesmente demora um pouco mais.
+#### Requisitos
+O projeto concluído deve:
 
-- Se a página mostrar um job com falha, por favor envie uma issue. Legal, você encontrou um bug! 🐛
+- Criar um prompt que descreva claramente o tema, o objetivo e o nível de dificuldade da tarefa.
+- Incluir instruções para organizar a atividade em seções como objetivo, tarefas e requisitos.
+- Garantir que o conteúdo seja apropriado para alunos e que a linguagem seja motivadora.
+- Produzir saídas consistentes com os exercícios já existentes no projeto.
 
-</details>
+### 🛠️ Configurar agentes personalizados
+
+#### Descrição
+Defina um fluxo de trabalho com agentes personalizados para tarefas recorrentes, como criar atividades, revisar estrutura de arquivos e manter padronização no conteúdo.
+
+#### Requisitos
+O projeto concluído deve:
+
+- Explicar quando e como usar o agente personalizado.
+- Definir regras de funcionamento e contexto do projeto.
+- Dar prioridade à consistência, clareza e qualidade educacional.
+- Apoiar a criação de materiais que sigam o padrão do template e a identidade do repositório.
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Ao concluir esta atividade, você terá uma configuração mais eficiente do GitHub Copilot, com instruções e fluxos adaptados ao contexto do seu projeto educacional.
